@@ -1,0 +1,4 @@
+nexmo
+Flask
+serverless-wsgi
+Werkzeug
