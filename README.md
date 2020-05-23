@@ -6,12 +6,16 @@ A Flask based Python Lambda function for Nexmo Verify
 * Pip
 * [Node.js](https://nodejs.org/en/) and npm
 * [Serverless Framework](https://serverless.com/framework/docs/getting-started/)
+* [AWS account](https://aws.amazon.com/)
 
 ## Setup Instructions
 Clone this repo from GitHub, and navigate into the newly created directory to proceed.
 
 ### Environment
 Rename `.env.default` to `.env` and add values to `NEXMO_API_KEY` and `NEXMO_API_SECRET` provided by your Vonage APIs account.
+
+### AWS Setup
+You will need to create [AWS credentials](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/) as indicated by Serverless. Update the `.env` file with these.
 
 ### Usage
 To start, create a virtualenv from within the project root to contain the project as you proceed. Then activate it as follows:
